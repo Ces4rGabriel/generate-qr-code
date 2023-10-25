@@ -195,3 +195,46 @@ a {
         transform: translateY(-100px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    #enter-url {
+        width: 80%;
+    }
+
+    #button-input {
+        width: 30%;
+        position: absolute;
+        right: 85px;
+        height: 75%;
+        width: 20%;
+    }
+
+    #input-text {
+        width: 80%;
+    }
+
+    #qrcode {
+        width: 250px;
+        height: 250px;
+    }
+
+    #img-qrcode {
+        width: 200px;
+    }
+
+    #button-group {
+        width: 300px;
+    }
+
+    #button-group > button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .popup-alert {
+        width: 80%;
+        height: 10%;
+    }
+    
+}
